@@ -3,6 +3,15 @@
 Welcome to the Venue Registration System!  
 The Venue Registration System (VRS) is a platform where you can find the perfect venues for your events based on your preferences.
 
+## 🎉 What is the Venue Registration System?
+
+**Venue Registration System** is a field project designed to help you find the most suitable venues for your events with just a simple form submission!
+
+No more wasting time on manual searches — we’ve already done the hard work for you.  
+No need to sign in to suspicious websites or subscribe to access venue details.  
+
+Just fill in your preferences, and we’ll instantly show you the venues that match your needs.
+
 ---
 
 ## 🛠️ Software Requirements
