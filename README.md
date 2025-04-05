@@ -1,32 +1,75 @@
-# Venue Registration System
-Welcome to the Venue Registration System. The Venue Registration System(VRS) is a place where you can get the perfect venues for your events.
+# Venue Registration System (VRS)
 
-# Here's a brief introduction to how to use our service in your systems:
+Welcome to the Venue Registration System!  
+The Venue Registration System (VRS) is a platform where you can find the perfect venues for your events based on your preferences.
 
-Software you need:
-1) MongoDB Compass
-2) Node.js
-3) Install express, mongoclient and cors for this node.js
-4) A browser, preferably Google Chrome
-   
-Steps to save VRS in your system:
+---
 
-1) Make a folder for this system.
-2) Save the assets, frontend to this folder.
-3) Also, save the server.js to this folder, it's better to save it in a folder named backend.
-4) Create a connection named "venues" in mongoDB Compass, in it create 3 databases name "vTenali1", "vGuntur1" and "vVijaya1". Create collection in these database with the same name.
-5) Import the json files in the mongodbcollections folder in these collections as per their names.
+## 🛠️ Software Requirements
 
-Steps to run VRS in your system:
-1) Run this server.js file using node.js with the command "node server.js". You can run this file by executing the command in the command prompt, make sure that the cmd is the folder for VRS.
-2) Make sure the mongoDB Compass is running in the background, you can achieve this by executing the command "net start mongodb"
-4) Start navigating the VRS with homepage.html in the frontend folder and enjoy our system
-5) It's best to check that the "venues" connection string in your mongoDB Compass and the one in the server.js file matches, by defualt it will be "localhost::\27071/"
+To use VRS on your system, make sure you have the following:
 
-How to use VRS:
-1) Click the "Get Venues Now!" option in the navbar
-2) Fill the form and get suitable venues.
-3) Login to save your venues
-4) You can check the logged data in localStorage of your browser.
-5) You can also check the user login credentials the mongoDB database "users" in the "venues" connection.
+1. **MongoDB Compass**
+2. **Node.js**
+3. Installed packages for Node.js:
+   - `express`
+   - `mongodb` (for `MongoClient`)
+   - `cors`
+4. A web browser (preferably **Google Chrome**)
 
+---
+
+## 📂 Setting Up VRS on Your System
+
+1. Create a folder to store the VRS project.
+2. Inside this folder, save:
+   - `assets/` folder
+   - `frontend/` folder
+   - `backend/server.js` (create a `backend` folder and place `server.js` inside it)
+3. In MongoDB Compass:
+   - Create a **connection** named `venues`.
+   - Under this connection, create **three databases**:
+     - `vTenali1`
+     - `vGuntur1`
+     - `vVijaya1`
+   - For each database, create a **collection** with the same name.
+4. Import the relevant JSON files (from the `mongodbcollections` folder) into their respective collections.
+
+---
+
+## ▶️ Running VRS
+
+1. Open a terminal or command prompt in the project folder.
+2. Run the server with:
+
+   ```bash
+   node backend/server.js
+   ```
+
+3. Ensure MongoDB is running in the background. You can start it with:
+
+   ```bash
+   net start mongodb
+   ```
+
+4. Navigate to the `frontend/homepage.html` in your browser to start using the system.
+5. Confirm that the MongoDB connection string in **server.js** matches your Compass connection string.  
+   By default, it should be:
+
+   ```
+   mongodb://localhost:27017/
+   ```
+
+---
+
+## 💡 How to Use VRS
+
+1. Click the **"Get Venues Now!"** option in the navigation bar.
+2. Fill out the event details in the form to see suitable venues.
+3. Login to save your venue preferences.
+4. You can view the saved data in your browser’s `localStorage`.
+5. You can also view user login credentials in the **`venues.users`** collection in MongoDB.
+
+---
+
+Enjoy using VRS and host your events at the perfect venue!
