@@ -35,34 +35,34 @@ To use VRS on your system, make sure you have the following:
 
 ## ▶️ Running VRS
 
-1. Open a terminal or command prompt in the project folder.
-2. Run the server with:
+1. Install the following Node.js packages (run this command inside your project folder):
+
+   ```bash
+   npm install express mongodb cors
+
+2. After installation, a node_modules folder will be created automatically. Make sure this folder is in the same directory as your server.js file (typically the backend folder).
+3. Open a terminal or command prompt in the project folder.
+4. Run the server with:
 
    ```bash
    node backend/server.js
    ```
 
-3. Ensure MongoDB is running in the background. You can start it with:
+5. Ensure MongoDB is running in the background. You can start it with:
 
    ```bash
    net start mongodb
    ```
    Execute in cmd while running it as a administrator.
 
-4. Navigate to the `frontend/homepage.html` in your browser to start using the system.
-5. Confirm that the MongoDB connection string in **server.js** matches your Compass connection string.  
+6. Navigate to the `frontend/homepage.html` in your browser to start using the system.
+7. Confirm that the MongoDB connection string in **server.js** matches your Compass connection string.  
    By default, it should be:
 
    ```
    mongodb://localhost:27017/
    ```
-6. Install the following Node.js packages (run this command inside your project folder):
-
-   ```bash
-   npm install express mongodb cors
-
-7. After installation, a node_modules folder will be created automatically. Make sure this folder is in the same directory as your server.js file (typically the backend folder).
-   
+      
 ---
 
 ## 💡 How to Use VRS
