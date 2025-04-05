@@ -1,2 +1,2 @@
 # Venue Registration System
-Welcome to the Venue Registration System. The Venue Registration System(VRS) is a place where you can get 
+Welcome to the Venue Registration System. The Venue Registration System(VRS) is a place where you can get the perfect venues for your events.
