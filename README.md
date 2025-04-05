@@ -75,4 +75,16 @@ To use VRS on your system, make sure you have the following:
 
 ---
 
+## 👥 Project Contributors
+
+This project was proudly created and maintained by:
+
+- [AlapatiVamsi05](https://github.com/AlapatiVamsi05) 
+- [LakshmiSatvikaSuggula](https://github.com/LakshmiSatvikaSuggula) 
+
+We worked together to build a simple, effective, and user-friendly venue registration system.  
+Feel free to explore, use, and contribute!
+Enjoy using the VRS and host your events at the perfect venues
 Enjoy using VRS and host your events at the perfect venue!
+
+
